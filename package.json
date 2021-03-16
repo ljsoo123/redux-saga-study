@@ -1,0 +1,30 @@
+{
+  "name": "react_typescript_webpack",
+  "version": "1.0.0",
+  "description": "Build UI that scales",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --port 100 --hot"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^4.4.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.0.5",
+    "@types/webpack": "4.1.4",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.4.3"
+  }
+}
